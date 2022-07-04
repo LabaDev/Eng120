@@ -3,24 +3,24 @@
 Mostly focusing on _C# Basics._
 
 ##Monday##
-[] Unit Testing and Refactoring
-[] Test First Development
-[] Operators
-[] Selection
+- [] Unit Testing and Refactoring
+- [] Test First Development
+- [] Operators
+- [] Selection
 
 ##Tuesday##
-[] Control Flows
-[] Iterations
+- [] Control Flows
+- [] Iterations
 
 ##Wednesday##
-[] Exceptions
-[] Numerical Data Types
+- [] Exceptions
+- [] Numerical Data Types
 
 ##Thrusday##
-[] Strings
-[] Arrays
+- [] Strings
+- [] Arrays
 
 ##Friday##
-[] Date Time
-[] Methods
-[] Memory Model
+- [] Date Time
+- [] Methods
+- [] Memory Model
