@@ -3,7 +3,7 @@
 Mostly focusing on _C#Basics._
 
 ## Monday
-- [ ] Unit Testing and Refactoring
+- [x] Unit Testing and Refactoring
 - [ ] Test First Development
 - [ ] Operators
 - [ ] Selection
