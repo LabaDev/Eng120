@@ -6,11 +6,11 @@ Mostly focusing on _C#Basics._
 - [x] Unit Testing and Refactoring
 - [x] Test First Development
 - [x] Operators
-- [ ] Selection
+- [x] Selection
 
 ## Tuesday
-- [ ] Control Flows
-- [ ] Iterations
+- [x] Control Flows
+- [x] Iterations
 
 ## Wednesday
 - [ ] Exceptions
