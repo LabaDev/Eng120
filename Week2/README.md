@@ -4,13 +4,13 @@ Mostly focusing on _C#Basics._
 
 ## Monday
 - [x] Unit Testing and Refactoring
-- [ ] Test First Development
-- [ ] Operators
-- [ ] Selection
+- [x] Test First Development
+- [x] Operators
+- [x] Selection
 
 ## Tuesday
-- [ ] Control Flows
-- [ ] Iterations
+- [x] Control Flows
+- [x] Iterations
 
 ## Wednesday
 - [ ] Exceptions
