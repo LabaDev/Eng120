@@ -9,5 +9,6 @@ Agile and SCRUM
 
 ## Links
 
-Trello - https://trello.com/b/0FF6lPAt/group1-project
-Wireframe - https://app.moqups.com/nfQwQchBMqXZ5j7h3vZnYgj0axUdbxpj/edit/page/ae8fe8eb0
+- Trello - https://trello.com/b/0FF6lPAt/group1-project
+- Wireframe - https://app.moqups.com/nfQwQchBMqXZ5j7h3vZnYgj0axUdbxpj/edit/page/ae8fe8eb0
+- Kanban - https://www.atlassian.com/agile/kanban
