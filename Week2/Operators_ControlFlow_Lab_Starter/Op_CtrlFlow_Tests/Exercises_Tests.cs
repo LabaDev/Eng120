@@ -1,13 +1,14 @@
 ﻿using NUnit.Framework;
 using Op_CtrlFlow;
 using System.Collections.Generic;
+using System;
 
 namespace Op_CtrlFlow_Tests
 {
     public class Exercises_Tests
     {     
         // write unit test(s) for MyMethod here
-
+        //Average
 
         [Test]
         public void Average_ReturnsCorrectAverage()
@@ -16,12 +17,16 @@ namespace Op_CtrlFlow_Tests
             Assert.That(Exercises.Average(myList), Is.EqualTo(4.4));
         }
 
+
+
         [Test]
-        public void WhenListIsEmpty_Average_ReturnsZero()
+        public void WhenListIsEmpty_Average_ThrowsAnDivisionByZeroError()
         {
             var myList = new List<int>() {};
-            Assert.That(Exercises.Average(myList), Is.EqualTo(0));
+            Assert.That(() => Exercises.Average(myList), Throws.TypeOf<DivideByZeroException>().With.Message.Contain("List is empty!"));
         }
+
+        //Ticket Type
 
         [TestCase(100, "OAP")]
         [TestCase(60, "OAP")]
@@ -38,5 +43,34 @@ namespace Op_CtrlFlow_Tests
             var result = Exercises.TicketType(age);
             Assert.That(result, Is.EqualTo(expected));
         }
+
+
+        [TestCase(-1)]
+        [TestCase(150)]
+        public void GivenOutOfBoundValue_TicketType_ThrowsAnArgumentOutOfRangeException(int age)
+        {
+            Assert.That(() => Exercises.TicketType(age), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contain("Age is out of range."));
+        }
+
+
+        //Grade
+        [Test]
+        public void GivenMarks_Returns_Grades()
+        {
+            var mark1 = 89;
+            Assert.That(Exercises.Grade(mark1), Is.EqualTo("Distinction"));
+        }
+
+
+        [TestCase(-1)]
+        [TestCase(101)]
+        public void GivenOutOfBoundValue_Grade_ThrowsAnArgumentOutOfRangeException(int mark)
+        {
+            Assert.That(() => Exercises.Grade(mark), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contain("Mark is out of range."));
+        }
+
+
+
+
     }
 }
