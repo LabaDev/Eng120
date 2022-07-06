@@ -4,6 +4,17 @@ namespace UnitTest
 {
     public class Tests
     {
+
+        [TestCase(-1)]
+        [TestCase(-100)]
+        [TestCase(100)]
+        [TestCase(25)]
+
+        public void GivenOutOfBoundValesTo_Greeting_ThrowsOutOfBoundException(int time)
+        {
+            Assert.That(() => Program.Greeting(time), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contain("Given time out of range"));
+        }
+
         [Test]
         public void GivenATimeOf21_Greeting_ReturnsGoodEvening()
         {
@@ -63,20 +74,20 @@ namespace UnitTest
             Assert.That(Program.Greeting(time), Is.EqualTo("Good evening!"));
         }
 
-        [TestCase(18, 19)]
-        [TestCase(11, 12)]
-        [TestCase(4, 5)]
+        //[TestCase(18, 19)]
+        //[TestCase(11, 12)]
+        //[TestCase(4, 5)]
 
-        public void GivenTheTimes_Greeting_ChecksBoundaryConditions(int arg1, int arg2)
-        {
-            string resultOne = Program.Greeting(arg1);
-            string resultTwo = Program.Greeting(arg2);
-            bool isBoundary = false;
-            if (resultOne != resultTwo && Math.Abs(arg1-arg2) == 1)
-            {
-                isBoundary = true;
-            }
-            Assert.That(isBoundary, Is.True);
-        }
+        //public void GivenTheTimes_Greeting_ChecksBoundaryConditions(int arg1, int arg2)
+        //{
+        //    string resultOne = Program.Greeting(arg1);
+        //    string resultTwo = Program.Greeting(arg2);
+        //    bool isBoundary = false;
+        //    if (resultOne != resultTwo && Math.Abs(arg1-arg2) == 1)
+        //    {
+        //        isBoundary = true;
+        //    }
+        //    Assert.That(isBoundary, Is.True);
+        //}
     }
 }
