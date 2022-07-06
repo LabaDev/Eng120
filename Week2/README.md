@@ -13,8 +13,8 @@ Mostly focusing on _C#Basics._
 - [x] Iterations
 
 ## Wednesday
-- [ ] Exceptions
-- [ ] Numerical Data Types
+- [x] Exceptions
+- [x] Numerical Data Types
 
 ## Thrusday
 - [ ] Strings
