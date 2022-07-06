@@ -15,15 +15,18 @@ namespace TestFirstExercises
         // Implement this method so that it take an int as an input,
         // squares it, adds 101, divides the result by 7, then subtracts 4.  
         // Return a double rounded to 3 decimal places.
-        public static double BODMAS(int inputNumber)
+        public static double BODMAS(double inputNumber)
         {
-            double inputNumber = inputNumber;
+            
             inputNumber *= inputNumber;
             inputNumber += 101;
+
             inputNumber /= 7;
             inputNumber -= 4;
 
-            return inputNumber;
+            var answer = Math.Round(inputNumber, 3);
+            
+            return answer;
         }
 
         // implement this method so that it returns true if num is even, otherwise false
@@ -37,7 +40,7 @@ namespace TestFirstExercises
         // that are divisible by either 2 or 5
         public static int SumEvenFive(int max)
         {
-            int total = 0
+            int total = 0;
             for (int i=0; i<=max; i++)
             {
                 if (i%2 ==0 || i%5 == 0)
@@ -52,7 +55,8 @@ namespace TestFirstExercises
         // regardless of case
         public static bool CheckInput(string input)
         {
-            return input == "password";
+
+            return input.ToLower() == "password";
         }
 
         // implement this method so it returns the sum
