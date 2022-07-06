@@ -3,6 +3,15 @@ namespace Classification_Tests
 {
     public class Tests
     {
+        [TestCase(-1)]
+        [TestCase(-100)]
+        [TestCase(200)]
+        [TestCase(151)]
+        public void GivenOutOfBoundValuesTo_AvaailableClassifications_ThrowsArgumentOutOfRangeException(int age)
+        {
+            Assert.That(() => Program.AvailableClassifications(age), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contain("Age of viewer is out of range."));
+        }
+
         [TestCase(2)]
         [TestCase(5)]
         [TestCase(11)]

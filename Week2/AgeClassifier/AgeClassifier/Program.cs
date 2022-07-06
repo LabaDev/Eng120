@@ -14,6 +14,10 @@ public class Program
 
     public static string AvailableClassifications(int ageOfViewer)
     {
+
+        if (ageOfViewer < 0 || ageOfViewer > 150)
+            throw new ArgumentOutOfRangeException("Age of viewer is out of range.");
+
         string result;
         if (ageOfViewer >1&& ageOfViewer <= 11)
         {
