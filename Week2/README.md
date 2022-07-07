@@ -24,3 +24,9 @@ Mostly focusing on _C#Basics._
 - [ ] Date Time
 - [ ] Methods
 - [ ] Memory Model
+
+
+
+### Links
+- String - https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0
+- String Builder - https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-6.0
