@@ -78,6 +78,23 @@ namespace Op_CtrlFlow
 
         public static int GetScottishMaxWeddingNumbers(int covidLevel)
         {
+            if (covidLevel < 0 || covidLevel >= 5)
+            {
+                throw new ArgumentOutOfRangeException("Covid level is out of range");
+            }
+            switch (covidLevel)
+            {
+                case 4:
+                    return 20;
+                case 3:
+                case 2:
+                    return 50;
+                case 1:
+                    return 100;
+                case 0:
+                    return 200;
+
+            }
             return 0;
         }
     }

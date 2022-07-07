@@ -70,7 +70,24 @@ namespace Op_CtrlFlow_Tests
         }
 
 
+        // Scottish wedding
+        [TestCase(-1)]
+        [TestCase(150)]
+        public void GivenOutOfBoundValue_GetScottishMaxWeddingNumbers_ThrowsAnArgumentOutOfRangeException(int covidLevel)
+        {
+            Assert.That(() => Exercises.GetScottishMaxWeddingNumbers(covidLevel), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contain("Covid level is out of range"));
+        }
 
+        [TestCase(0, 200)]
+        [TestCase(1, 100)]
+        [TestCase(2, 50)]
+        [TestCase(3,50)]
+        [TestCase(4,20)]
+
+        public void GivenValidValues_Covid_GetScottishMaxWeddingNumbers_GivesCasesForLevel(int covidLevel, int result)
+        {
+            Assert.That(Exercises.GetScottishMaxWeddingNumbers(covidLevel), Is.EqualTo(result));
+        }
 
     }
 }
