@@ -34,12 +34,10 @@ namespace MoreTypes_Lib
         // returns the double represented by the string, or -999 if conversion is not possible
         public static double ParseNum(string numString)
         {
-            
+
             var success = Double.TryParse(numString, out double numOfDigits);
 
-            if (success == false)
-                return -999;
-            return numOfDigits;
+            return success ? numOfDigits : -999;
         }
 
         // Returns the a string containing the count of As, Bs, Cs and Ds in the parameter string
