@@ -13,6 +13,10 @@ namespace DataTypes_Lib
 
         public static long FloatToLong(float num)
         {
+            if (num>float.MaxValue || num < float.MinValue)
+            {
+                throw new OverflowException();
+            }
             if ((num - Math.Floor(num)) > 0)
                 num--;
             else if ((num - Math.Floor(num)) > 0)
