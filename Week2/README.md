@@ -30,3 +30,4 @@ Mostly focusing on _C#Basics._
 ### Links
 - String - https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0
 - String Builder - https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-6.0
+- Numeric Format String - https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings 
