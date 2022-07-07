@@ -17,11 +17,11 @@ Mostly focusing on _C#Basics._
 - [x] Numerical Data Types
 
 ## Thrusday
-- [ ] Strings
-- [ ] Arrays
+- [x] Strings
+- [x] Arrays
 
 ## Friday
-- [ ] Date Time
+- [x] Date Time
 - [ ] Methods
 - [ ] Memory Model
 
