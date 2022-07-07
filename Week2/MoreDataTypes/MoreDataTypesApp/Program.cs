@@ -35,6 +35,8 @@ namespace MoreDataTypesApp
 
             //string[] arrayOfStrings = { "hello", "world" };
             //char[] arrayOfChars = { 'a', 'b', 'c', 'c' };
+            
+
             //Console.WriteLine(String.Concat(arrayOfStrings));
             //Console.WriteLine(String.Concat(arrayOfChars));
 
@@ -53,8 +55,68 @@ namespace MoreDataTypesApp
 
             #region String parsing
 
-            ParsingString();
+            //ParsingString();
 
+            #endregion
+
+            #region Arrays
+
+            int[] arraysOfInts = new int[10];
+
+            arraysOfInts[6] = 7;
+            foreach (int n in arraysOfInts)
+                Console.WriteLine(n);
+
+            //1D arrays
+            int[] Ints = { 1, 2, 3, 4, 5 };
+            string sparta = "SpartaGlobal";
+            var SpartaArray = sparta.ToCharArray();
+
+            var greeting = "Hello, Hi, Hola, Hallo, Hej";
+            var greetingArray = greeting.Split(',');
+
+
+
+            //2D arrays
+            int[,] grid = new int[2, 4];
+            grid[0, 1] = 6;
+            grid[1, 3] = 8;
+            foreach (int n in grid)
+                Console.WriteLine(n);
+
+            string[,] chessBoard = {    { "pawn", "king"},
+                                        {"blank", "blank" },
+                                        {"enemy king", "enemy pawn" } };
+            int lower1D = chessBoard.GetLowerBound(0);
+            int lower2D = chessBoard.GetLowerBound(1);
+            int upper1D = chessBoard.GetUpperBound(0);
+            int upper2D = chessBoard.GetUpperBound(1);
+
+            string theBoard = "";
+            for (int i = lower1D; i <= upper1D; i++)
+            {
+                for (int j = lower2D; j <= upper2D; j++)
+                    theBoard += $"{chessBoard[i, j]} is at {i} amd {j}\n";
+            
+            }
+            Console.WriteLine(theBoard);
+
+            //Jagged Arrays
+            int[][] jaggedIntArray = new int[2][];
+            jaggedIntArray[0] = new int[4];
+            jaggedIntArray[1] = new int[2];
+
+            jaggedIntArray[0][3] = 666;
+            jaggedIntArray[0] = new int[] {1, 2, 3, 4};
+            jaggedIntArray[1] = new int[] {5, 6};
+
+            int jaggedupper1D = jaggedIntArray.GetUpperBound(0);
+
+            foreach (int[] innerArray in jaggedIntArray)
+            {
+                foreach (int value in innerArray)
+                    Console.WriteLine(value);
+            }
             #endregion
 
         }
