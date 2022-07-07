@@ -17,17 +17,18 @@ Mostly focusing on _C#Basics._
 - [x] Numerical Data Types
 
 ## Thrusday
-- [ ] Strings
-- [ ] Arrays
+- [x] Strings
+- [x] Arrays
 
 ## Friday
-- [ ] Date Time
+- [x] Date Time
 - [ ] Methods
 - [ ] Memory Model
 
 
 
 ### Links
-- String - https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0
-- String Builder - https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-6.0
-- Numeric Format String - https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings 
+> - String - https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0
+> - String Builder - https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-6.0
+> - Numeric Format String - https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings 
+> - DateTime - https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-6.0
