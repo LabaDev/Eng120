@@ -47,6 +47,7 @@ namespace MoreTypes_Tests
         {
             string[][] result = ArraysExercises.MakeJagged2DArray(2, 4, _list);
             Assert.That(result.Length, Is.EqualTo(2), "Length incorrect");
+            
             Assert.That(result[0][0], Is.EqualTo("Alpha"), "First element incorrect");
             Assert.That(result[0][1], Is.EqualTo("Beta"), "Second element incorrect");
             Assert.That(result[1][0], Is.EqualTo("Gamma"), "Third element incorrect");
@@ -54,8 +55,9 @@ namespace MoreTypes_Tests
             Assert.That(result[1][2], Is.EqualTo("Epsilon"), "Fifth element incorrect");
             Assert.That(result[1][3], Is.EqualTo("Zeta"), "Last element incorrect");
         }
-
-        [Test]
+        
+      
+            [Test]
         public void GivenRowSizesThatDontFitTheListOfStrings_MakeJagged2DArray_ThrowAnArgumentException()
         {
             Assert.That(() => ArraysExercises.MakeJagged2DArray(3, 4, _list),

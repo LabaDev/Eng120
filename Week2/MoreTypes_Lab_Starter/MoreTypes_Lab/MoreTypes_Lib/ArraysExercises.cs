@@ -5,6 +5,8 @@ namespace MoreTypes_Lib
 {
     public class ArraysExercises
     {
+
+        
         // returns a 1D array containing the contents of a given List
         public static string[] Make1DArray(List<string> contents)
         {
@@ -17,16 +19,19 @@ namespace MoreTypes_Lib
         // returns a 3D array containing the contents of a given List
         public static string[,,] Make3DArray(int length1, int length2, int length3, List<string> contents)
         {
+            int dims = length1 * length2 * length3;
+            if (dims > contents.Count)
+                throw new ArgumentException("Number of elements in list must match array size");
+
             string[,,] array = new string[length1, length2, length3];
-            int j = 0;
+            int counter = 0;
 
-
-            for (int i = 0; i <= length1; i++)
+            for (int i = 0; i < length1; i++)
             {
-                for (int k = 0; k <= length3; k++)
+                for (int k = 0; k < length3; k++)
                 {
-                    array[i, 0, k] = contents[j];
-                    j++;
+                    array[i, 0, k] = contents[counter];
+                    counter++;
                 }
                 
             }
@@ -37,17 +42,25 @@ namespace MoreTypes_Lib
         // returns a jagged array containing the contents of a given List
         public static string[][] MakeJagged2DArray(int countRow1, int countRow2, List<string> contents)
         {
-            string[][] jaggedArray = new string[2][];
+            int numOfArrays = countRow1 * countRow2;
+            if (numOfArrays > contents.Count)
+                throw new ArgumentException("Number of elements in list must match array size");
 
-            int counter = 0;
-            for (int i = 0; i<countRow1; i++)
-                jaggedArray[0][i] = contents[counter++];
-            jaggedArray[1] = new string[countRow2];
-            for (int j = 0; j < countRow2; j++)
+
+            string[][] jaggedStringArray = new string[2][];
+            int index = 0;
+            jaggedStringArray[0] = new string[countRow1];
+            jaggedStringArray[1] = new string[countRow2];
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < jaggedStringArray.Length; j++)
+                {
+                    jaggedStringArray[i][j] = contents[index];
+                    index++;
+                }
+            }   
             
-                jaggedArray[1][j] = contents[counter++];
-            
-            return jaggedArray;
+            return jaggedStringArray;
         }   
     }
 }

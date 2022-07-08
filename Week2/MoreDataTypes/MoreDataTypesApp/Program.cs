@@ -1,7 +1,12 @@
 ﻿using System.Text;
 using System.Diagnostics;
+using enum;
 namespace MoreDataTypesApp
 {
+    public enum Pokemon
+    {
+        GRASS, WATER, FIRE, ELEC
+    }
     internal class Program
     {
         
@@ -125,26 +130,56 @@ namespace MoreDataTypesApp
 
             #region DateTime
 
-            var now = DateTime.Now;
-            Console.WriteLine(now);
+            //var now = DateTime.Now;
+            //Console.WriteLine(now);
 
-            var tmrw = now.AddDays(1);
-            Console.WriteLine(tmrw);
+            //var tmrw = now.AddDays(1);
+            //Console.WriteLine(tmrw);
 
-            var newYr = new DateOnly(2023, 1, 1);
-            Console.WriteLine(newYr);
+            //var newYr = new DateOnly(2023, 1, 1);
+            //Console.WriteLine(newYr);
 
 
-            var stopwatch = new Stopwatch();
-            stopwatch.Start();
-            int total = 0;
-            for (int i = 0; i < 10; i++)
-                total++;
-            stopwatch.Stop();
-            Console.WriteLine(stopwatch.Elapsed);
-
+            //var stopwatch = new Stopwatch();
+            //stopwatch.Start();
+            //int total = 0;
+            //for (int i = 0; i < 10; i++)
+            //    total++;
+            //stopwatch.Stop();
+            //Console.WriteLine(stopwatch.Elapsed);
 
             #endregion
+
+            #region Enums
+
+            Pokemon type = Pokemon.FIRE;
+            if (type == Pokemon.WATER) Console.WriteLine("Water is the type");
+            else if (type == Pokemon.FIRE) Console.WriteLine("Fire is the type");
+
+            switch (type)
+            {
+                case Pokemon.ELEC:
+                    Console.WriteLine("Bzz");
+                    break;
+                case Pokemon.GRASS:
+                    Console.WriteLine("The worst type");
+                    break;
+                case Pokemon.FIRE:
+                    Console.WriteLine($"Beats {Pokemon.GRASS}");
+                    break;
+                default:
+                    Console.WriteLine("No type found :(");
+                    break;
+
+            }
+
+            var poke = Pokemon.GRASS;
+            var theType = (Pokemon)60;
+            Console.WriteLine(poke);
+
+            var anotherTper = Enum.Parse(typeof(Pokemon), "WATER");
+
+            #endregion 
         }
 
         public static string StringExercise(string myString)
