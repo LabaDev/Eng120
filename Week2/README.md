@@ -1,6 +1,6 @@
 # Week 2 Plan
 
-Mostly focusing on _C#Basics._
+##Mostly focusing on _C#Basics._
 
 ## Monday
 - [x] Unit Testing and Refactoring
@@ -22,8 +22,8 @@ Mostly focusing on _C#Basics._
 
 ## Friday
 - [x] Date Time
-- [ ] Methods
-- [ ] Memory Model
+- [x] Methods
+- [x] Memory Model
 
 
 
