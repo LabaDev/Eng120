@@ -4,20 +4,22 @@
 
 ## Tasks
 
-[] 4 pillars
-[] Retro
+[]4 pillars
+[]Retro
 
-[] Classes and Struts
-[] Inheritance
+[]Classes and Struts
+[]Inheritance
 
-[] Polymorphism
-[] Comparing Objects
+[]Polymorphism
+[]Comparing Objects
 
-[] SOLID
-[] Collections
+[]SOLID
+[]Collections
 
-[] Collections Part II
-[] Advanced Unit Testing
-[] TDD
+[]Collections Part II
+[]Advanced Unit Testing
+[]TDD
 
 ## Links
+
+>- Passing Reference - https://www.pluralsight.com/guides/csharp-in-out-ref-parameters
