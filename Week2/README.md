@@ -1,33 +1,33 @@
 # Week 2 Plan
 
-##Mostly focusing on _C#Basics._
+## Mostly focusing on _C#Basics._
 
-## Monday
+### Monday
 - [x] Unit Testing and Refactoring
 - [x] Test First Development
 - [x] Operators
 - [x] Selection
 
-## Tuesday
+### Tuesday
 - [x] Control Flows
 - [x] Iterations
 
-## Wednesday
+### Wednesday
 - [x] Exceptions
 - [x] Numerical Data Types
 
-## Thrusday
+### Thrusday
 - [x] Strings
 - [x] Arrays
 
-## Friday
+### Friday
 - [x] Date Time
 - [x] Methods
 - [x] Memory Model
 
 
 
-### Links
+#### Links
 > - String - https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0
 > - String Builder - https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-6.0
 > - Numeric Format String - https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings 
