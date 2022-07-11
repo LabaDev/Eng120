@@ -4,18 +4,23 @@
 
 ## Tasks
 
+### Monday
 - [ ] 4 pillars
 - [ ] Retro
 
+### Tuesday
 - [ ] Classes and Struts
 - [ ] Inheritance
 
+### Wednesday
 - [ ] Polymorphism
 - [ ] Comparing Objects
 
+### Thrusday
 - [ ] SOLID
 - [ ] Collections
 
+### Friday
 - [ ] Collections Part II
 - [ ] Advanced Unit Testing
 - [ ] TDD
