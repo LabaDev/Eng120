@@ -2,21 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-
-public class Customer
+public class Customer : Person
 {
-    public string FirstName;
-    public string LastName;
+    private string _deliveryAddress;
 
-    
-    public Customer(string FName, string LName)
-    {   
-        FirstName = FName;
-        LastName = LName;
+    public Customer(string FName, string LName, string DAddress) : base(FName, LName)
+    {
+        _deliveryAddress = DAddress;
     }
+
+    public string DeliveryAddress { get => _deliveryAddress; set => _deliveryAddress = value; }
 
     public void Print()
     {
-        Console.WriteLine("Full Name: " + FirstName + " " + LastName);
+        Console.WriteLine("Delivery Address: " + _deliveryAddress + " ");
+        base.Print();
     }
 }
