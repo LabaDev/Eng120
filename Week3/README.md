@@ -5,20 +5,20 @@
 ## Tasks
 
 - [ ] 4 pillars
-[ ]Retro
+- [ ] Retro
 
-[ ]Classes and Struts
-[]Inheritance
+- [ ] Classes and Struts
+- [ ] Inheritance
 
-[]Polymorphism
-[]Comparing Objects
+- [ ] Polymorphism
+- [ ] Comparing Objects
 
-[]SOLID
-[]Collections
+- [ ] SOLID
+- [ ] Collections
 
-[]Collections Part II
-[]Advanced Unit Testing
-[]TDD
+- [ ] Collections Part II
+- [ ] Advanced Unit Testing
+- [ ] TDD
 
 ## Links
 
