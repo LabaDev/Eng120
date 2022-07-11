@@ -4,7 +4,7 @@
 
 ## Tasks
 
-[]4 pillars
+[] - 4 pillars
 []Retro
 
 []Classes and Struts
