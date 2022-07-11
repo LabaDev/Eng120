@@ -4,10 +4,10 @@
 
 ## Tasks
 
-[] - 4 pillars
-[]Retro
+[ ]4 pillars
+[ ]Retro
 
-[]Classes and Struts
+[ ]Classes and Struts
 []Inheritance
 
 []Polymorphism
