@@ -13,12 +13,16 @@
             //Person dan = new Person("Dan", "Summerside") { Age = 100 };
             //Person laba = new Person { FirstName = "Laba", LastName = "Limbu", Age = 33};
 
-            var shop1 = new Shopping { Ties =3, Shirts =3 , Trousers = 1};
-            var shop2 = new Shopping { Socks = 10 };
+            //var shop1 = new Shopping { Ties =3, Shirts =3 , Trousers = 1};
+            //var shop2 = new Shopping { Socks = 10 };
 
 
-            var spartan1 = new Spartan { FullName = "Kai", Course = "C# SDET", Personalid = 999 };
-
+            //var spartan1 = new Spartan { FullName = "Kai", Course = "C# SDET", Personalid = 999 };
+            //Hunter maks = new Hunter("Maks", "Hadys", "Sony") { Age = 10 };
+            //Console.WriteLine(maks.Age);
+            //Console.WriteLine(maks.Shoot());
+            //Hunter nish = new Hunter();
+            //Console.WriteLine(nish.Shoot());
 
         }
         

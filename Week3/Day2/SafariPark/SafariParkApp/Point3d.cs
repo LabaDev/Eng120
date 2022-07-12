@@ -15,7 +15,7 @@ namespace SafariParkApp
             this.x = x;
             this.y = y;
             this.z = z;
-            this.SumOfPoints(x + y + z);
+            
         }
 
     }

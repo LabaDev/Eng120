@@ -28,10 +28,10 @@ namespace SafariParkApp
             Age = age;
             _hairColour =hairCol;
         }
-        public Person(string FirstName, string LastName)
+        public Person(string firstName, string lastName)
         {
-            _firstName = FirstName;
-            _lastName = LastName;
+            _firstName = firstName;
+            _lastName = lastName;
         }
         public Person(string firstName)
         {
@@ -40,10 +40,7 @@ namespace SafariParkApp
 
         public Person() { }
 
-        public string GetFullName()
-        {
-            return $"{_firstName} {_lastName}";
-        }
+        public string FullName => $"{_firstName} {_lastName}";
 
         public void SetNames(string fName, string lName)
         {

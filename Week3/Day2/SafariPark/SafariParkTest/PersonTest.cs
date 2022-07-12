@@ -24,7 +24,7 @@ namespace SafariParkTest
         public void GetFullNameTest(string firstName, string lastName, string expectedResult)
         {
             Person cathy = new Person();
-            var result = cathy.GetFullName();
+            var result = cathy.FullName;
             Assert.AreEqual(expectedResult, result);
         }
 
