@@ -30,3 +30,4 @@
 ## Links
 
 >- Passing Reference - https://www.pluralsight.com/guides/csharp-in-out-ref-parameters
+>- Objects - https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-6.0
