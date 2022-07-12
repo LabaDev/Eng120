@@ -1,0 +1,6 @@
+Classes - noun - PascalCase (e.g. Peron)
+Field - nouns - underscore using _camelCase (e.g. _firstName)
+Properties - nouns - PascalCase (e.g. FirstName)
+Methods - verbs -  PascalCase (e.g. GetFullName())
+Variables and method parameters - camelCase (e.g. firstName)
+Constants - const - PascalCase
