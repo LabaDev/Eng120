@@ -13,7 +13,7 @@ public class Customer : Person
 
     public string DeliveryAddress { get => _deliveryAddress; set => _deliveryAddress = value; }
 
-    public void Print()
+    public override void Print()
     {
         Console.WriteLine("Delivery Address: " + _deliveryAddress + " ");
         base.Print();

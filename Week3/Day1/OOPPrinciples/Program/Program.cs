@@ -2,13 +2,17 @@
 
  class Program
 {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
-        Customer cust = new Customer("Jyoti", "Suresh", "Mumbai");
-        cust.LirstName = "Ghupta";
-        cust.Print();
+        Person person;
+        Random rand = new Random();
+        int myRandomInt = rand.Next(0, 2);
+        if (myRandomInt == 0)
+            person = new Customer("Jyoti", "Suresh", "Mumbai");
+        else
+            person = new Employee("Minato", "Fujiwara", "IT");
 
-        Employee emp = new Employee("Minato", "Fujiwara", "IT");
-        emp.Print();
+        person.Print();
+
     }
 }

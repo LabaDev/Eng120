@@ -13,7 +13,7 @@ public class Employee : Person
 
     public string Department { get => _department; set => _department = value; }
 
-    public void Print()
+    public override void Print()
     {
         Console.WriteLine("Working in: " +  _department + " ");
         base.Print();

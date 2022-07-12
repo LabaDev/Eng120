@@ -18,7 +18,7 @@ public class Person
     public string FirstName { get => _firstName; set => _firstName = value; }
     public string LirstName { get => _lastName; set => _lastName = value; }
 
-    public void Print()
+    public virtual void Print()
     {
         Console.WriteLine("Full Name: " + _firstName + " " + _lastName);
     }
