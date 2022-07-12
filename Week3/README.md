@@ -7,8 +7,8 @@
 ## Tasks
 
 ### Monday
-- [ ] 4 pillars
-- [ ] Retro
+- [x] 4 pillars
+- [x] Retro
 
 ### Tuesday
 - [ ] Classes and Struts
