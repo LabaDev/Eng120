@@ -8,18 +8,14 @@ namespace HomeworkApp
 {
     public  class Vehicle
     {
-        private int _capacity;
-        private int _numPassengers;
+        protected int _capacity;
+        protected int _numPassengers;
         
         
         
         //private readonly string _speed;
-        public int NumOfPassengers
-        {
-            get { return _numPassengers; }
-            set { _numPassengers = ((_numPassengers < 0) || (value > _capacity)) ? throw new ArgumentException() : _numPassengers; }
-        }
-        public int Position { get; private set; }
+        public int NumOfPassengers { get; set; }
+        public int Position { get; protected set; }
 
         public int Speed { get; init; }
 

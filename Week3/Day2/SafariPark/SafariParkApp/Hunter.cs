@@ -23,4 +23,15 @@ namespace SafariParkApp
         public Hunter() : base("", "") { }
 
     }
+
+    public class MonsterHunter : Hunter
+    {
+        private string? _weapon;
+
+        public MonsterHunter(string fName, string lName, string camera, string weapon) : base(fName, lName, camera)
+        {
+            _weapon = weapon;
+        }
+
+    }
 }

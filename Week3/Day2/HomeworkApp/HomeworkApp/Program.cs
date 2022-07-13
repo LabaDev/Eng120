@@ -4,15 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Vehicle car = new Vehicle();
-            Vehicle car2 = new Vehicle (5, 40);
-            car.Move(2);
-            car2.Move();
-            Console.WriteLine(car.Position);
-            Console.WriteLine(car2.Position);
-            Console.WriteLine(car.Move(2));
-            Console.WriteLine(car2.Move());
-            
+            Airplane a = new Airplane(200, 100, "JetsRUs") { NumOfPassengers = 150 }; 
+            a.Ascend(500); 
+            Console.WriteLine(a.Move(3)); 
+            Console.WriteLine(a); a.Descend(200); 
+            Console.WriteLine(a.Move()); a.Move(); 
+            Console.WriteLine(a);
+
         }
     }
 }
