@@ -35,3 +35,5 @@
 > - Exception - https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/
 > - Exception Hierarchy - https://www.inf.unibz.it/~calvanese/teaching/06-07-ip/lecture-notes/uni10/node12.html
 > - Integral numeric types - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+> - Floating - point numeric types - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+
