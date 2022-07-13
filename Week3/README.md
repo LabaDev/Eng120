@@ -11,8 +11,8 @@
 - [x] Retro
 
 ### Tuesday
-- [ ] Classes and Struts
-- [ ] Inheritance
+- [x] Classes and Struts
+- [x] Inheritance
 
 ### Wednesday
 - [ ] Polymorphism
