@@ -41,6 +41,8 @@ namespace HomeworkApp
         }
         public string Move(int times) 
         {
+            if (times < 0)
+                throw new ArgumentException("Cannot move backwards!");
             Position += Speed * times;
             return $"Moving along {times} times at an altitude of {Altitude} meters.";
         }
