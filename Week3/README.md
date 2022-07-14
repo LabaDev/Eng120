@@ -15,12 +15,12 @@
 - [x] Inheritance
 
 ### Wednesday
-- [ ] Polymorphism
-- [ ] Comparing Objects
+- [x] Polymorphism
+- [x] Comparing Objects
 
 ### Thrusday
-- [ ] SOLID
-- [ ] Collections
+- [x] SOLID
+- [x] Collections
 
 ### Friday
 - [ ] Collections Part II
