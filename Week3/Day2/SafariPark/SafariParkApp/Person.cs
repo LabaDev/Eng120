@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    public class Person
+    public class Person : IMovable
     {
         private string _firstName;
         private string _lastName;
@@ -38,7 +38,10 @@ namespace SafariParkApp
             _firstName = firstName;
         }
 
-        public Person() { }
+        public string Move()
+        {
+            return "Walking along";
+        }
 
         public string FullName => $"{_firstName} {_lastName}";
 

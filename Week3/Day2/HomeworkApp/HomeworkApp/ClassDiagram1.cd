@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="HomeworkApp.Airplane">
-    <Position X="8.75" Y="1.75" Width="3.25" />
+    <Position X="8" Y="1.75" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAIAAAAAEAAAAggAAAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Airplane.cs</FileName>

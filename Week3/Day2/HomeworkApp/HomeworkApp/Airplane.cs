@@ -57,5 +57,10 @@ namespace HomeworkApp
                 $"\nposition: {Position}" +
                 $"\naltitude: {Altitude}";
         }
+
+        //public override string ToString()
+        //{
+        //    return $"Thank you for flying {_airline}: {base.ToString()} altitude: {Altitude}.";
+        //}
     }
 }

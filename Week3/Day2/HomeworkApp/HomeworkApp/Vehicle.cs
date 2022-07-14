@@ -48,6 +48,8 @@ namespace HomeworkApp
 
             
         }
+
+        //public override string ToString() => base.ToString() + $" capacity: {_capacity} passengers: {_numPassengers} speed: {Speed} position: {Position}";
     }
 
 }

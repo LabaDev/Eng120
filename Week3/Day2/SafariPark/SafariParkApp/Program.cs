@@ -24,6 +24,17 @@
             //Hunter nish = new Hunter();
             //Console.WriteLine(nish.Shoot());
 
+            var Bob = new Person("Bob");
+            var Marley = new Person("Marley");
+            var Jammy = new Person("Jammy");
+
+            List<object> listMovable = new List<object>()
+            {
+                Bob, Marley, Jammy
+            };
+            foreach (var obj in listMovable)
+                Console.WriteLine(obj.Move());
+
         }
         
         public void DemoMethod(Point3d pt, Person p)

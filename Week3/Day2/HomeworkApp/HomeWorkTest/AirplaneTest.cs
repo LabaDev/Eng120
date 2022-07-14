@@ -17,7 +17,7 @@
         }
 
         [Test]
-        public void WhenADefaultAirplane_Ascends100mthenDescends500m_ItsAltitudeIs500()
+        public void WhenADefaultAirplane_Ascends1000mthenDescends500m_ItsAltitudeIs500()
         {
             Airplane a = new Airplane(200) { NumOfPassengers = 150 };
             a.Ascend(1000);
@@ -48,6 +48,6 @@
                       
             Assert.That(()=> a.Move(times), Throws.TypeOf<ArgumentException>().With.Message.Contain("Cannot move backwards!"));
         }
-
+        
     }
 }
