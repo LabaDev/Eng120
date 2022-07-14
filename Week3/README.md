@@ -15,12 +15,12 @@
 - [x] Inheritance
 
 ### Wednesday
-- [ ] Polymorphism
-- [ ] Comparing Objects
+- [x] Polymorphism
+- [x] Comparing Objects
 
 ### Thrusday
-- [ ] SOLID
-- [ ] Collections
+- [x] SOLID
+- [x] Collections
 
 ### Friday
 - [ ] Collections Part II
@@ -31,3 +31,5 @@
 
 >- Passing Reference - https://www.pluralsight.com/guides/csharp-in-out-ref-parameters
 >- Objects - https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-6.0
+>- SOLID Principle -  https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+>- GRASP - https://gist.github.com/dimabory/56e36474a1bb5573c08f26805a978fb5
