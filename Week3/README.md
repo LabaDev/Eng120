@@ -35,3 +35,4 @@
 >- GRASP - https://gist.github.com/dimabory/56e36474a1bb5573c08f26805a978fb5
 >- Collections - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
 >- Queues - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-6.0
+>- Stacks - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1?view=net-6.0
