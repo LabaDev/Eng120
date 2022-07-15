@@ -23,9 +23,9 @@
 - [x] Collections
 
 ### Friday
-- [ ] Collections Part II
-- [ ] Advanced Unit Testing
-- [ ] TDD
+- [x] Collections Part II
+- [x] Advanced Unit Testing
+- [x] TDD
 
 ## Links
 
