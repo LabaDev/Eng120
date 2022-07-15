@@ -23,9 +23,9 @@
 - [x] Collections
 
 ### Friday
-- [ ] Collections Part II
-- [ ] Advanced Unit Testing
-- [ ] TDD
+- [x] Collections Part II
+- [x] Advanced Unit Testing
+- [x] TDD
 
 ## Links
 
@@ -34,3 +34,7 @@
 >- SOLID Principle -  https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 >- GRASP - https://gist.github.com/dimabory/56e36474a1bb5573c08f26805a978fb5
 >- Collections - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+>- Queues - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-6.0
+>- Stacks - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1?view=net-6.0
+>- HashSet - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=net-6.0
+>- Dictionary - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-6.0
