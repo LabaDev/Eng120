@@ -36,3 +36,4 @@
 >- Collections - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
 >- Queues - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-6.0
 >- Stacks - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1?view=net-6.0
+>- HashSet - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=net-6.0
