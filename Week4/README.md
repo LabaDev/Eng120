@@ -7,37 +7,37 @@
 ## Tasks
 
 ### Monday
-- [] OOP and Adv Unit Testing: Advanced Unit Testing Cont.
-- [] TDD
-- [] Interview Pratice
-- [] Using GitHub Collaboratively
+- [ ] OOP and Adv Unit Testing: Advanced Unit Testing Cont.
+- [ ] TDD
+- [ ] Interview Pratice
+- [ ] Using GitHub Collaboratively
 
 ### Tuesday
 
-- [] OOP Test
-- [] Paried Programming Exercise: Bubble Sort
-- [] Sort Manager Project Breif
-- [] Intro to Recursion
-- [] Big O Notation
-- [] Recursion
-- [] Paired Programming Exercise: Merge Sort
+- [ ] OOP Test
+- [ ] Paried Programming Exercise: Bubble Sort
+- [ ] Sort Manager Project Breif
+- [ ] Intro to Recursion
+- [ ] Big O Notation
+- [ ] Recursion
+- [ ] Paired Programming Exercise: Merge Sort
 
 ### Wednesday
 
-- [] Code smells and refactoring
-- [] Design Patterns
+- [ ] Code smells and refactoring
+- [ ] Design Patterns
 
 ### Thrusday
 
-- [] Logging, Encoding and Streaming
-- [] Serialisation
-- [] XML and JSON
-- [] SQL Learning Path
-- [] Sort Manager Project Presentation
+- [ ] Logging, Encoding and Streaming
+- [ ] Serialisation
+- [ ] XML and JSON
+- [ ] SQL Learning Path
+- [ ] Sort Manager Project Presentation
 
 ### Friday
 
-- [] SQL Learning Path
-- [] SQL Review and Mini Project
+- [ ] SQL Learning Path
+- [ ] SQL Review and Mini Project
 
 
