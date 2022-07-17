@@ -40,4 +40,11 @@
 - [ ] SQL Learning Path
 - [ ] SQL Review and Mini Project
 
+## Links
+
+>> - 
+> - 
+>> - 
+>>
+
 
