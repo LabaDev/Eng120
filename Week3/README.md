@@ -41,3 +41,4 @@
 >- Testing Models - https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertion-models/constraint.html
 >- Testing Constraints - https://docs.nunit.org/articles/nunit/writing-tests/constraints/Constraints.html
 >- Test Attribute - https://docs.nunit.org/articles/nunit/writing-tests/attributes.html
+>- Best Pratices - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#characteristics-of-a-good-unit-test
