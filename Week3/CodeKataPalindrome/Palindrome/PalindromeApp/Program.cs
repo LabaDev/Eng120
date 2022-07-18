@@ -7,11 +7,13 @@ namespace PalindromeApp
     {
         static void Main(string[] args)
         {
-            Console.Write(Palindrome("Hello"));
-            Console.Write(Palindrome("ollo"));
-            Console.Write(Palindrome("tim"));
-            Console.Write(Palindrome("dod"));
-            Console.Write(Palindrome("willow"));
+            Console.Write(Palindrome("Hello"));  //returns False
+            Console.Write(Palindrome("ollo"));   //returns True
+            Console.Write(Palindrome("tim"));    //returns False
+            Console.Write(Palindrome("dod"));    //returns True
+            Console.Write(Palindrome("willow")); //returns False
+            
+            
             return;
         }
 
