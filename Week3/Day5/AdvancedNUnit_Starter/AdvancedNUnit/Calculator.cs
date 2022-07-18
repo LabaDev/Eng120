@@ -1,5 +1,5 @@
 ﻿using System;
-
+using NUnit.Framework;
 namespace AdvancedNUnit
 {
     public class Calculator
@@ -22,7 +22,7 @@ namespace AdvancedNUnit
 
         public double Divide()
         {
-            if (Num2 == 0) throw new ArgumentException("Can't divide by zero");
+            if (Num2 == 0) throw new NUnit.Framework.AssertionException("Can't divide by zero");
             return Num1 / Num2;
         }
 

@@ -9,23 +9,33 @@ namespace AdvancedNUnit
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
+            //test one object in many methods
 
         }
 
         [SetUp]
         public void Setup() { }
 
-        [TestCase(1,1,2)]
+
+        [TestCase(1, 1, 2)]
+        [TestCaseSource("AddCases")]
+        [Category("Happy Path")]
         public void Add_Always_ReturnsExpectedResult(int x, int y, int expectedResult)
         {
             // Arrange
-            
+
             var subject = new Calculator { Num1 = x, Num2 = y };
             // Act
-            var result = subject.Add(x,y);
+            var result = subject.Add(x, y);
             // Assert
             Assert.That(result, Is.EqualTo(expectedResult), "optional failure message");
         }
+
+        private static object[] AddCases =
+        {
+            new int[] { 2, 4 , 6},
+            new int[] { -2, 4 , 2}
+        };
 
         [Test]
         public void SomeConstraints()
@@ -73,6 +83,31 @@ namespace AdvancedNUnit
 
             var nums = new List<int> { 4, 2, 7, 5 };
         }
+
+        [Test]
+        [Category("error Path")]
+        public void Divide_Always_ThrowsException_GivenZero()
+        {
+            var _sut = new Calculator { Num1 = 2, Num2 = 0 };
+            Assert.That(() => _sut.Divide(), Throws.TypeOf<NUnit.Framework.AssertionException>().With.Message.Contain("Can't divide by zero"));
+        }
+
+
+        //[TearDown]
+
+        //public void TearDown()
+        //{
+
+        //}
+
+        //[OneTimeTearDown]
+        //public void OneTimeTearDown()
+        //{
+
+        //}
+
     }
+    
+    
     
 }
