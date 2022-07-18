@@ -3,7 +3,7 @@
 namespace AdvancedNUnit
 {
     [TestFixture]
-    [Ignore("Not using these tests yet")]
+    
     public class CounterTests
     {
         private Counter _sut = new Counter(6);

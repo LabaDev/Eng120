@@ -6,9 +6,9 @@ namespace AdvancedNUnit
     {
         public double Num1 { get; set; }
         public double Num2 { get; set; }
-        public double Add()
+        public double Add(int x, int y)
         {
-            return Num1 + Num2;
+            return x + y;
         }
         public double Subtract()
         {
