@@ -67,6 +67,18 @@ namespace StringCalculatorTest
         }
 
         [Test]
+        public void GivenInputAs1001And2000_Calculator_Retruns0()
+        {
+            Assert.That(() => Program.Calculator("1001,,,,,;;;;2000"), Is.EqualTo(0));
+        }
+
+        [Test]
+        public void GivenInputAs999And999_Calculator_Retruns1998()
+        {
+            Assert.That(() => Program.Calculator("999,999"), Is.EqualTo(1998));
+        }
+
+        [Test]
         public void GivenMultipleDelimitersAsInputWithNumbersOneTwoAndThree_Calculator_Retruns6()
         {
             Assert.That(() => Program.Calculator("//[***]\n1***2***3"), Is.EqualTo(6));
