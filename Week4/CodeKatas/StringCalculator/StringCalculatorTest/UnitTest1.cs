@@ -84,8 +84,19 @@ namespace StringCalculatorTest
             Assert.That(() => Program.Calculator("//[***]\n1***2***3"), Is.EqualTo(6));
             Assert.That(() => Program.Calculator("//[*][%]\n1*2%3"), Is.EqualTo(6));
         }
+        [TestCase("--3-,-1")]
+        public void GivenInputAMinusMinus3MinusCommaMinis1_Calculator_ThrowsException(string entry)
+        {
+            Assert.That(() => Program.Calculator(entry), Throws.TypeOf<ArgumentException>().With.Message.Contains("Negative Numbers not Allowed!"));
+        }
+        [TestCase("3-,1")]
+        public void GivenInputA3MinusComma1_Calculator_ThrowsException(string entry)
+        {
+            Assert.That(() => Program.Calculator(entry), Throws.TypeOf<ArgumentException>().With.Message.Contains("Negative Numbers not Allowed!"));
+        }
 
-        
+
+
     }
 
 }
