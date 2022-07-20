@@ -47,4 +47,5 @@
 >> - 
 >>
 
-
+## Notes
+> *Week4* and *Sparta_BubbleSort* directory are the same file
