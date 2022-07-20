@@ -7,16 +7,16 @@
 ## Tasks
 
 ### Monday
-- [ ] OOP and Adv Unit Testing: Advanced Unit Testing Cont.
-- [ ] TDD
+- [x] OOP and Adv Unit Testing: Advanced Unit Testing Cont.
+- [x] TDD
 - [ ] Interview Pratice
-- [ ] Using GitHub Collaboratively
+- [x] Using GitHub Collaboratively
 
 ### Tuesday
 
-- [ ] OOP Test
-- [ ] Paried Programming Exercise: Bubble Sort
-- [ ] Sort Manager Project Breif
+- [x] OOP Test
+- [x] Paried Programming Exercise: Bubble Sort
+- [x] Sort Manager Project Breif
 - [ ] Intro to Recursion
 - [ ] Big O Notation
 - [ ] Recursion
