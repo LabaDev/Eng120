@@ -17,10 +17,10 @@
 - [x] OOP Test
 - [x] Paried Programming Exercise: Bubble Sort
 - [x] Sort Manager Project Breif
-- [ ] Intro to Recursion
-- [ ] Big O Notation
-- [ ] Recursion
-- [ ] Paired Programming Exercise: Merge Sort
+- [x] Intro to Recursion
+- [x] Big O Notation
+- [x] Recursion
+- [x] Paired Programming Exercise: Merge Sort
 
 ### Wednesday
 
