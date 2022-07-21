@@ -42,10 +42,9 @@
 
 ## Links
 
->> - https://www.bigocheatsheet.com/
+>> - 
 > 
 >> - 
 >>
 
-## Notes
-> *Week4* and *Sparta_BubbleSort* directory are the same file
+
