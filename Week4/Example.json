@@ -1,0 +1,14 @@
+{
+	"Person": {
+		"firstname": "Labahang",
+		"lastname": "Limbu",
+		"address": {
+			"housenumber": "12",
+			"streetName": "Fields Road",
+			"Town": "Cwmbran"
+		},
+		"age": 24,
+		"hobbies": ["coding", "reading", "football"]
+
+	}
+}
