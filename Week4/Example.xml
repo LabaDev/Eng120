@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person>
+  <firstname> Laba </firstname>
+  <lastname> Limbu </lastname>
+  <gender> Male </gender>
+  <haircolour> Black </haircolour>
+</Person>
