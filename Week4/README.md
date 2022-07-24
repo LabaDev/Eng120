@@ -24,20 +24,20 @@
 
 ### Wednesday
 
-- [ ] Code smells and refactoring
-- [ ] Design Patterns
+- [x] Code smells and refactoring
+- [x] Design Patterns
 
 ### Thrusday
 
-- [ ] Logging, Encoding and Streaming
+- [x] Logging, Encoding and Streaming
 - [ ] Serialisation
-- [ ] XML and JSON
-- [ ] SQL Learning Path
+- [x] XML and JSON
+- [x] SQL Learning Path
 - [ ] Sort Manager Project Presentation
 
 ### Friday
 
-- [ ] SQL Learning Path
+- [x] SQL Learning Path
 - [ ] SQL Review and Mini Project
 
 ## Links
@@ -46,6 +46,6 @@
 >> - Big O Notation - https://www.bigocheatsheet.com/
 > 
 >> - Refactoring - https://docs.microsoft.com/en-gb/visualstudio/ide/refactoring-in-visual-studio?view=vs-2022
->>
+>
 
 
