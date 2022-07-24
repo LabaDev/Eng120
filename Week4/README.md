@@ -43,8 +43,6 @@
 ## Links
 
 
-<<<<<<< HEAD
->> - 
 >> - Big O Notation - https://www.bigocheatsheet.com/
 > 
 >> - Refactoring - https://docs.microsoft.com/en-gb/visualstudio/ide/refactoring-in-visual-studio?view=vs-2022
