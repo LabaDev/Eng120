@@ -33,7 +33,7 @@
 - [ ] Serialisation
 - [x] XML and JSON
 - [x] SQL Learning Path
-- [ ] Sort Manager Project Presentation
+- [x] Sort Manager Project Presentation
 
 ### Friday
 
