@@ -38,7 +38,7 @@
 ### Friday
 
 - [x] SQL Learning Path
-- [ ] SQL Review and Mini Project
+- [x] SQL Review and Mini Project
 
 ## Links
 
