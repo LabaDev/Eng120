@@ -30,7 +30,7 @@
 ### Thrusday
 
 - [x] Logging, Encoding and Streaming
-- [ ] Serialisation
+- [x] Serialisation
 - [x] XML and JSON
 - [x] SQL Learning Path
 - [x] Sort Manager Project Presentation
