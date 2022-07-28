@@ -2,9 +2,9 @@
 
 # Checklist
 
-- [ ] - Fundamentals of Testing
-- [ ] - Life Cycles
-- [ ] - Static Testitng
-- [ ] - Test Design Techniques
-- [ ] - Test Management
-- [ ] - Tool Support for Testing
+- [x] - Fundamentals of Testing
+- [x] - Life Cycles
+- [x] - Static Testitng
+- [x] - Test Design Techniques
+- [x] - Test Management
+- [x] - Tool Support for Testing
