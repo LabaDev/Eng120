@@ -11,22 +11,22 @@
 
 ### Tuesday
 
-- [ ] Revision and Interview Practice
-- [ ] Advanced C# and Data Test
-- [ ] Fundamental of Testing
-- [ ] Testing through the lifecycle
-- [ ] Testing Levels
+- [x] Revision and Interview Practice
+- [x] Advanced C# and Data Test
+- [x] Fundamental of Testing
+- [x] Testing through the lifecycle
+- [x] Testing Levels
 
 ### Wednesday
 
-- [ ] Test Development & Design
-- [ ] Testing Technique I
+- [x] Test Development & Design
+- [x] Testing Technique I
 
 ### Thrusday
 
-- [ ] Testing Techinique II
-- [ ] Test Management
-- [ ] Tool Support for Testing
+- [x] Testing Techinique II
+- [x] Test Management
+- [x] Tool Support for Testing
 
 ### Friday
 
