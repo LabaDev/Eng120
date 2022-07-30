@@ -30,8 +30,8 @@
 
 ### Friday
 
-- [ ] Mock I
-- [ ] Mock II
+- [x] Mock I
+- [x] Mock II
 
 
 
