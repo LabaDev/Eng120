@@ -2,6 +2,6 @@
 
 # Checklist
 
-- [ ] - Exam A
-- [ ] - Exam B
-- [ ] - Exam C
+- [x] - Exam A
+- [x] - Exam B
+- [x] - Exam C
