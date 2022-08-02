@@ -43,6 +43,7 @@
 >
 >> - Async - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/task-asynchronous-programming-model
 
+>> - RESTful API Constraints - https://restfulapi.net/rest-architectural-constraints/
 
 
 
