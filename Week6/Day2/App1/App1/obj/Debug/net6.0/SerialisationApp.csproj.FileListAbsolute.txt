@@ -1,0 +1,15 @@
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\bin\Debug\net6.0\SerialisationApp.exe
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\bin\Debug\net6.0\SerialisationApp.deps.json
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\bin\Debug\net6.0\SerialisationApp.runtimeconfig.json
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\bin\Debug\net6.0\SerialisationApp.dll
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\bin\Debug\net6.0\SerialisationApp.pdb
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.csproj.AssemblyReference.cache
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.AssemblyInfoInputs.cache
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.AssemblyInfo.cs
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.csproj.CoreCompileInputs.cache
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.dll
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\refint\SerialisationApp.dll
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.pdb
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\SerialisationApp.genruntimeconfig.cache
+C:\Users\labal\OneDrive\Desktop\Sparta\Eng120\Week6\Day2\App1\App1\obj\Debug\net6.0\ref\SerialisationApp.dll

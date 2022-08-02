@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5EShRirCIAM5GOShO6oHmSPDEjtaxIlsUD8DxbaXiHUKcDFMtXwcwqMloRjkPDeJEW7ZeyShBMTSsF1XOuaERw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\labal\\OneDrive\\Desktop\\Sparta\\Eng120\\Week6\\Day2\\App1\\App1\\SerialisationApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\labal\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
