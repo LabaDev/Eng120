@@ -1,0 +1,15 @@
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\bin\Debug\net6.0\LambdaLesson.exe
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\bin\Debug\net6.0\LambdaLesson.deps.json
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\bin\Debug\net6.0\LambdaLesson.runtimeconfig.json
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\bin\Debug\net6.0\LambdaLesson.dll
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\bin\Debug\net6.0\LambdaLesson.pdb
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.csproj.AssemblyReference.cache
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.AssemblyInfoInputs.cache
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.AssemblyInfo.cs
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.csproj.CoreCompileInputs.cache
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.dll
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\refint\LambdaLesson.dll
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.pdb
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\LambdaLesson.genruntimeconfig.cache
+C:\Users\papad\Desktop\Sparta\Eng120\Week6\LambdaLesson\LambdaLesson\obj\Debug\net6.0\ref\LambdaLesson.dll
