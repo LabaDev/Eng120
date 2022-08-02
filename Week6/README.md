@@ -40,6 +40,8 @@
 >> - Nullable Value Types - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
 >
 >> - Nullable Reference Type - https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references
+>
+>> - Async - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/task-asynchronous-programming-model
 
 
 
