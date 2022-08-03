@@ -18,8 +18,8 @@
 
 ### Wednesday
 
-- [ ] RestSharp
-- [ ] Testing RestSharp
+- [x] RestSharp
+- [x] Testing RestSharp
 
 ### Thrusday
 
