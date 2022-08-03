@@ -8,13 +8,13 @@
 
 ### Monday
 
-- [ ] Lambda Expressions 
+- [x] Lambda Expressions 
 
 ### Tuesday
 
-- [ ] Async Methods
-- [ ] Serialisation
-- [ ] Intro to APIs
+- [x] Async Methods
+- [x] Serialisation
+- [x] Intro to APIs
 
 ### Wednesday
 
@@ -35,6 +35,8 @@
 ## Links
 
 > 
+>> - Postman Collections - https://code-n-peace.postman.co/me/collections
+>
 >> - Pros & Cons of TDD - https://www.geeksforgeeks.org/advantages-and-disadvantages-of-test-driven-development-tdd/
 >
 >> - Nullable Value Types - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
