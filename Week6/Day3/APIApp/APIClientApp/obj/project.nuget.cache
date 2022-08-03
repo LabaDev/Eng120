@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W0/sZry1RhvpX8knIAp9JklS5cFl4oPT5f0jhixbbNvApRj3G5BVVHferUhzpTeDtHObR5gjPlem5GnC/ueT8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\labal\\OneDrive\\Desktop\\Sparta\\Eng120\\Week6\\Day3\\APIApp\\APIClientApp\\APIClientApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\labal\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\labal\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
