@@ -23,9 +23,9 @@
 
 ### Thrusday
 
-- [ ] API Testing Framework
-- [ ] API Testing Mini Project
-- [ ] Defect Management
+- [x] API Testing Framework
+- [x] API Testing Mini Project
+- [x] Defect Management
 
 
 ### Friday
